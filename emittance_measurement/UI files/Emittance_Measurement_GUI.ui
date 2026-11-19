@@ -19,8 +19,7 @@
      <widget class="QGroupBox" name="leftGroup">
       <property name="styleSheet">
        <string notr="true">QGroupBox#leftGroup {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 6px;
@@ -39,8 +38,7 @@ QGroupBox#leftGroup::title {
         <widget class="QGroupBox" name="devicesGroup">
          <property name="styleSheet">
           <string notr="true">QGroupBox#devicesGroup {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 6px;
@@ -100,7 +98,7 @@ QGroupBox#devicesGroup::title {
     font-weight: bold;
 }
 QToolButton#quad_status_tooltip:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
               </property>
               <property name="text">
@@ -132,7 +130,7 @@ QToolButton#quad_status_tooltip:hover {
     font-weight: bold;
 }
 QToolButton#machine_status_tooltip:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
               </property>
               <property name="text">
@@ -148,8 +146,7 @@ QToolButton#machine_status_tooltip:hover {
              <widget class="QGroupBox" name="quadrupolesGroup">
               <property name="styleSheet">
                <string notr="true">QGroupBox#quadrupolesGroup {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 6px;
@@ -185,8 +182,7 @@ QGroupBox#quadrupolesGroup::title {
              <widget class="QGroupBox" name="screensGroup">
               <property name="styleSheet">
                <string notr="true">QGroupBox#screensGroup {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 6px;
@@ -262,8 +258,7 @@ QGroupBox#screensGroup::title {
         <widget class="QGroupBox" name="scanGroup">
          <property name="styleSheet">
           <string notr="true">QGroupBox#scanGroup {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 6px;
@@ -351,7 +346,7 @@ QGroupBox#scanGroup::title {
     font-weight: bold;
 }
 QToolButton#delta_min_info_button:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
               </property>
               <property name="text">
@@ -393,7 +388,7 @@ QToolButton#delta_min_info_button:hover {
     font-weight: bold;
 }
 QToolButton#steps_toolbutton:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
               </property>
               <property name="text">
@@ -429,7 +424,7 @@ QToolButton#steps_toolbutton:hover {
     font-weight: bold;
 }
 QToolButton#nshots_toolbutton:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
               </property>
               <property name="text">
@@ -465,7 +460,7 @@ QToolButton#nshots_toolbutton:hover {
           <item row="4" column="0" colspan="3">
            <widget class="QLabel" name="quad_readback_label">
             <property name="styleSheet">
-             <string notr="true">color: rgb(70, 70, 70);</string>
+             <string notr="true">color: palette(placeholder-text);</string>
             </property>
             <property name="text">
              <string>Quadrupole readback: -</string>
@@ -495,8 +490,7 @@ QToolButton#nshots_toolbutton:hover {
         <widget class="QGroupBox" name="localOptimizationSettingsGroup">
          <property name="styleSheet">
           <string notr="true">QGroupBox#localOptimizationSettingsGroup {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 6px;
@@ -564,7 +558,7 @@ QGroupBox#localOptimizationSettingsGroup::title {
     font-weight: bold;
 }
 QToolButton#fit_quad_setting_info_button:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
               </property>
               <property name="text">
@@ -623,7 +617,7 @@ QToolButton#fit_quad_setting_info_button:hover {
     font-weight: bold;
 }
 QToolButton#fit_quad_offset_info_button:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
               </property>
               <property name="text">
@@ -676,7 +670,7 @@ QToolButton#fit_quad_offset_info_button:hover {
     font-weight: bold;
 }
 QToolButton#fit_quad_roll_info_button:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
               </property>
               <property name="text">
@@ -705,7 +699,7 @@ QToolButton#fit_quad_roll_info_button:hover {
     font-weight: bold;
 }
 QToolButton#fit_energy_tooltip:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
               </property>
               <property name="text">
@@ -722,8 +716,7 @@ QToolButton#fit_energy_tooltip:hover {
         <widget class="QGroupBox" name="boundsSettingsGroup">
          <property name="styleSheet">
           <string notr="true">QGroupBox#boundsSettingsGroup {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 6px;
@@ -773,7 +766,7 @@ QGroupBox#boundsSettingsGroup::title {
     font-weight: bold;
 }
 QToolButton#bounds_info_button:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
               </property>
               <property name="text">
@@ -962,8 +955,7 @@ QToolButton#bounds_info_button:hover {
         <widget class="QGroupBox" name="actionsGroup">
          <property name="styleSheet">
           <string notr="true">QGroupBox#actionsGroup {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 6px;
@@ -1070,8 +1062,7 @@ QGroupBox#actionsGroup::title {
       </property>
       <property name="styleSheet">
        <string notr="true">QTabWidget#tabs {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 6px;
@@ -1155,8 +1146,7 @@ QTabWidget#tabs::title {
             </property>
             <property name="styleSheet">
              <string notr="true">QGroupBox#fit_results_wrapper_group {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 6px;
@@ -1190,8 +1180,7 @@ QGroupBox#fit_results_wrapper_group::title {
               <widget class="QGroupBox" name="fit_results_group">
                <property name="styleSheet">
                 <string notr="true">QGroupBox#fit_results_group {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 6px;
@@ -1619,7 +1608,7 @@ QGroupBox#fit_results_group::title {
     font-weight: bold;
 }
 QToolButton#bg_shots_tooltip:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
                  </property>
                  <property name="text">
@@ -1774,7 +1763,7 @@ QToolButton#bg_shots_tooltip:hover {
     font-weight: bold;
 }
 QToolButton#toolButton_scan:hover {
-    background-color: #d9d9d9 ;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
              </property>
              <property name="text">
@@ -1851,7 +1840,7 @@ QToolButton#toolButton_scan:hover {
     font-weight: bold;
 }
 QToolButton#ToolTip_opt:hover {
-    background-color: #d9d9d9 ;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
             </property>
             <property name="text">

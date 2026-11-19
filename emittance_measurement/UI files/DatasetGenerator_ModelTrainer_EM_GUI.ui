@@ -52,8 +52,7 @@
         <widget class="QGroupBox" name="settingsGroup">
          <property name="styleSheet">
           <string notr="true">QGroupBox {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 8px;
@@ -197,7 +196,7 @@ QGroupBox::title {
     font-weight: bold;
 }
 QToolButton#samples_tooltip:hover {
-    background-color: #e6e6e6;
+    background-color: rgba(128, 128, 128, 60);
 }</string>
             </property>
             <property name="text">
@@ -215,8 +214,7 @@ QToolButton#samples_tooltip:hover {
         <widget class="QGroupBox" name="devicesGroup">
          <property name="styleSheet">
           <string notr="true">QGroupBox {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 8px;
@@ -333,8 +331,7 @@ QGroupBox::title {
      <widget class="QGroupBox" name="logGroup">
       <property name="styleSheet">
        <string notr="true">QGroupBox {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid palette(mid);
     border-radius: 6px;
     margin-top: 8px;
     padding-top: 8px;
